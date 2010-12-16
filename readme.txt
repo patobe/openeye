@@ -46,3 +46,8 @@ Change to the Definitions tab and click on the Create Deployment button. Select 
 
 Change to the Tasks tab and click on the New button. Select a process from the drop-down list. A new task should now be visible in the Unassigned task list. Right click on the task and select Claim task from the drop-down list. The task should now be moved to the Assigned Tasks list. Select the task to view the associated task form. Fill in the data and click on the Complete button.
 
+
+
+How to work with processes and tasks
+
+Todo
