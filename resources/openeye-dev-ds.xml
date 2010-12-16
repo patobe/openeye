@@ -11,16 +11,6 @@
 		<driver-class>com.mysql.jdbc.Driver</driver-class>
 		<user-name>openeye</user-name>
 		<password></password>
-		<min-pool-size>1</min-pool-size>
-		<max-pool-size>30</max-pool-size>
-		<blocking-timeout-millis>20000</blocking-timeout-millis>
-		<idle-timeout-minutes>1</idle-timeout-minutes>
-		<autoReconnect>false</autoReconnect>
-		<prepared-statement-cache-size>50</prepared-statement-cache-size>
-		<transaction-isolation>TRANSACTION_READ_COMMITTED</transaction-isolation>
-		<metadata>
-			<type-mapping>mySQL</type-mapping>
-		</metadata>
 	</local-tx-datasource>
 
 </datasources>
