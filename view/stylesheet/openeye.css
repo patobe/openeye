@@ -35,7 +35,7 @@ button[type=button],button[type=reset],button[type=submit],input[type=reset],inp
 
 /* Input end */ /* Body end */ /* Login page begin */
 .login-background {
-	background-color: #000;
+	background-color: #000; 
 	background-image: url("../img/login-bg-gradient-blue.png");
 	background-position: left top;
 	background-repeat: repeat-x;	
@@ -43,23 +43,23 @@ button[type=button],button[type=reset],button[type=submit],input[type=reset],inp
 
 #login-panel-company-logo-div {
 	background-color: transparent;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	padding-left: 0px;
-	width: 325px;
+	width: 350px;
 }
 
 .login-company-logo-text {
 	margin: 0px;
 	padding: 0px;
-	padding-left: 3px;
+	padding-left: 0px;
 	padding-top: 2px; 
 }
 
 .login-company-logo-image {
 	margin: 0px;
 	padding: 0px;
-	padding-left: 3px;
-	padding-bottom: 5px; 
+	padding-left: 5px;
+	padding-bottom: 14px; 
 }
 
 #login-panel-outer-div {
@@ -268,7 +268,7 @@ img.errors {
 	margin: 0px;
 	padding: 0px;
 	padding-left: 3px;
-	padding-bottom: 2px; 
+	padding-bottom: 7px; 
 }
 
 
