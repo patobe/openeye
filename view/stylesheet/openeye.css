@@ -51,7 +51,7 @@ button[type=button],button[type=reset],button[type=submit],input[type=reset],inp
 .login-company-logo-text {
 	margin: 0px;
 	padding: 0px;
-	padding-left: 0px;
+	padding-left: 5px;
 	padding-top: 2px; 
 }
 
@@ -59,7 +59,7 @@ button[type=button],button[type=reset],button[type=submit],input[type=reset],inp
 	margin: 0px;
 	padding: 0px;
 	padding-left: 5px;
-	padding-bottom: 14px; 
+	padding-bottom: 3px; 
 }
 
 #login-panel-outer-div {
@@ -268,7 +268,7 @@ img.errors {
 	margin: 0px;
 	padding: 0px;
 	padding-left: 3px;
-	padding-bottom: 7px; 
+	padding-bottom: 2px; 
 }
 
 
