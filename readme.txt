@@ -1,3 +1,23 @@
+Open Eye is a web based Business Process Management and Business Intelligence platform licensed under the GPL v3.
+
+The main objective of Open Eye is to provide a high-end BPM and BI solution including reporting and portfolio management, for any companies at a minimal cost of acquisition and ownership.
+
+The Open Eye platform reuses Open Source components to deliver an integrated off-the-shelf BPM and BI platform.
+
+Components
+- Process modeling (Signavio's Activiti Modeler)
+- Process design, development and testing (Eclipse and Activiti Eclipse Plugin)
+- Process runtime engine (Activiti)
+- Process monitoring, reporting and analytics (Birt)
+- Rich web interface for process management, process execution and process monitoring (Richfaces)
+- Framework for component and service integration (Seam)
+
+Content
+- Process templates based on best practices and industry standards
+- Report templates based on best practices and industry standards
+
+Here follows instructions on how to setup, build and run Open Eye from the source code. 
+
 1. How to run Open Eye from sources
 
 1.1 Download
@@ -6,15 +26,15 @@ The source files can be downloaded from github located at the following url: git
 
 1.2 Tools
 
-The following tools are recommended for building Open Eye from the source files: Java JDK SE 6 (Java development toolkit), Ant (automates the software building process), Git (source code management), Eclipse (integrated development environment), JBoss Application Server 5.1 or 6.X.
+The following tools are recommended for building Open Eye from the source files: Java JDK SE 6 (Java development toolkit), Ant (automates the software building process), Git (source code management), Eclipse (integrated development environment), JBoss Application Server 5.1 or 6.X, MySQL Community Server 5.5.X and MySQL Connector/J.
 
 1.3 Setup
 
-Install Java JDK , Ant, Git, Eclipse and JBoss Application Server. Import the downloaded Eclipse project into Eclipse.
+Install Java JDK , Ant, Git, Eclipse and JBoss Application Server. Import the downloaded Eclipse project into Eclipse. Open the build.properties file and change the jboss.home value to match your setup. Install MySQL, create a new schema and name it openeye. Create a new user and name it openeye, leave the password blank or update the openeye-ds.xml with the new password. Login to mysql with the new user named openeye and run the import-dev.sql script to create the tables. Copy the MySQL connector to <jboss.hom>/server/default/lib. 
 
 1.4 Build
 
-Before building the project open the build.properties file and change the jboss.home value to match your setup. Select project/clean to build the distribution and deploy it to your JBoss Application Server.
+Select project/clean to build the distribution and deploy it to your JBoss Application Server.
 
 1.5 Verify
 
