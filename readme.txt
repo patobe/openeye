@@ -1,3 +1,14 @@
+
+OpenEye - Business Process Management Integration Platform
+==========================================================
+version 2.0.0.Alpha1, December 2010
+
+This software is distributed under the terms of the FSF Lesser Gnu
+Public License (see lgpl-3.0.txt). 
+
+Introduction
+------------
+
 Open Eye is a web based Business Process Management and Business Intelligence platform licensed under the GPL v3.
 
 The main objective of Open Eye is to provide a high-end BPM and BI solution including reporting and portfolio management, for any companies at a minimal cost of acquisition and ownership.
@@ -15,6 +26,10 @@ Components
 Content
 - Process templates based on best practices and industry standards
 - Report templates based on best practices and industry standards
+
+
+Get Up And Running
+------------------
 
 Here follows instructions on how to setup, build and run Open Eye from the source code. 
 
