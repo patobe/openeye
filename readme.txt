@@ -9,11 +9,11 @@ Public License (see lgpl-3.0.txt).
 Introduction
 ------------
 
-Open Eye is a web based Business Process Management and Business Intelligence platform licensed under the GPL v3.
+Open Eye is a web based Business Process Management and Business Intelligence platform licensed under the LGPL v3.
 
 The main objective of Open Eye is to provide a high-end BPM and BI solution including reporting and portfolio management, for any companies at a minimal cost of acquisition and ownership.
 
-The Open Eye platform reuses Open Source components to deliver an integrated off-the-shelf BPM and BI platform.
+The Open Eye platform reuses Open Source components to deliver an integrated stack and off-the-shelf BPM and BI solution.
 
 Components
 - Process modeling (Signavio's Activiti Modeler)
