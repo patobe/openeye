@@ -22,7 +22,7 @@ Here follows instructions on how to setup, build and run Open Eye from the sourc
 
 1.1 Download
 
-The source files can be downloaded from github located at the following url: git@github.com:patobe/openeye.git
+The source files can be downloaded from github located at the following url: git@github.com:openeye/openeye.git
 
 1.2 Tools
 
